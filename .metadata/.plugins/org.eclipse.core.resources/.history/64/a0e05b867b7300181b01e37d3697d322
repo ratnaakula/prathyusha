@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Problem4_7 // Corner point coordinates
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		//Prompt the user to enter the radius of the bounding circle
+		System.out.print(" Enter the radius of the bounding circle:");
+		double r = 40;
+		//Generate random angle in radians between 0 and 2PI
+		double angle1 = Math.random() * (2* Math.PI);
+		double angle2 = Math.random() * (2* Math.PI);
+		double angle3 = Math.random() * (2* Math.PI);
+		// Get x and y
+		double x1 = r * Math.cos(angle1);
+		double y1 = r * Math.sin(angle1);
+		double x2 = r * Math.cos(angle2);
+		double y2 = r * Math.sin(angle2);
+		double x3 = r * Math.cos(angle3);
+		double y3 = r * Math.sin(angle3);
+		// Compute three sides
+		double a = Math.sqrt((x2 - x3) * (x2 - x3) + (y2-y3) * (y2- y3));
+		double b = Math.sqrt((x3-x1) * (x3-x1) + (y3-y1) * ( y3-y1));
+		double c = Math.sqrt((x1-x2) * (x1-x2) + (y1-y2) * (y1-y2));
+		
+	}
+
+}

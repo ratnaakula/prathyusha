@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Problem4_18 {
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		//Prompt the user to enter two characters
+		System.out.print(" Enter two characters :");
+		String s = input.nextLine();
+		// Extract major and status  from string
+		char m = Character.toUpperCase(s.charAt(0));
+		String s2 = input.next();
+	}
+	switch(status)
+	{
+	case 1 : System.out.println(" Freshman");
+	break;
+	case 2 : System.out.println(" Sophomore");
+	break;
+	case 3 : System.out.println(" Junior");
+	break;
+	case 4 : System.out.println(" Senior");
+	}
+}

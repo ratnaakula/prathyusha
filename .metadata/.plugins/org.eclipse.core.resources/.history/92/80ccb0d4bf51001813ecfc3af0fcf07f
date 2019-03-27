@@ -1,0 +1,61 @@
+
+public class HelloWorld 
+{
+
+	/* 
+	 * This is my main class 
+	 * - All it does is print Hello World 
+	 */
+	public static void main(String... args) 
+	{
+		
+		int firstNumber = 10;
+		int secondNumber = 20;
+		int product = firstNumber * secondNumber;
+	
+		System.out.println("c value is: " + product);
+	}
+	
+	public static int addition(int firstNumber,int secondNumber)
+	{ 
+		int sum = firstNumber + secondNumber;
+		
+		System.out.println(" add value is :" + sum);
+		
+		return sum;
+	}
+	
+	public static int subtraction(int firstNumber,int secondNumber)
+	{
+	  int sub  = firstNumber - secondNumber;
+		
+		System.out.println(" sub value is : "+ sub );
+		
+		return sub;
+	}
+	
+   public static int multiplication (int firstNumber,int secondNumber)
+ {
+	int product = firstNumber * secondNumber ;
+	
+	System.out.println("  product value is:" + product);
+	
+	return product;
+ }
+  
+   public static int division( int firstNumber,int secondNumber)
+   
+   {
+	  
+	   int quotient = firstNumber/ secondNumber ;
+	   
+	   System.out.println(" div value is :" + quotient);
+	   
+	   return quotient;
+	       
+   }
+   
+
+}
+   
+	

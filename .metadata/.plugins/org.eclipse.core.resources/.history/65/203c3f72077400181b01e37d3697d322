@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Problem4_14 {
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	//Prompt the user to enter a letter grade
+	System.out.print(" Enter a letter grade:");
+	String s = input.nextLine();
+	int num = (int) 's' ;
+	System.out.println(num);
+}
+
+}

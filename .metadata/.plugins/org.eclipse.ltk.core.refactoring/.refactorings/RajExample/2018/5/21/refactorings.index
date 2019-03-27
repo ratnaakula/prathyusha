@@ -1,0 +1,6 @@
+1527226019322	Extract method 'calculateSingleFilerTaxes'
+1527226044746	Extract method 'calculateMarriedFilerTax'
+1527226070237	Extract method 'calculateMarriedSepFiler'
+1527226101195	Extract method 'calculateHOHFiler'
+1527226132660	Rename method 'calculateHOHFiler'
+1527226164229	Rename method 'calculateMarriedSepFiler'

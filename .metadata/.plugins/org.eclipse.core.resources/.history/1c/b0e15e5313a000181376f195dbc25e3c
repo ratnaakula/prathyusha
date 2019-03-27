@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Stringstr_Main
+{
+
+	public static void main(String[] args) {
+		StringStr str = new StringStr();
+		str.setS1("Hi");
+		boolean result = str.startHi(str.getS1());
+		System.out.println(result);
+		
+		
+	}
+}

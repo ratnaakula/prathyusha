@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Program3_31// Financial currency exchange
+{
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	// Prompt the user to enter the exchange rate of currency
+	System.out.print(" Enter the exchange rate from dollars to RMB:");
+	double 
+}
+}

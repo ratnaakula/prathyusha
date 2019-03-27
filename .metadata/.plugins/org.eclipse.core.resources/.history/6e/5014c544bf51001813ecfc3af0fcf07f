@@ -1,0 +1,19 @@
+
+public class HelloWorld 
+{
+
+	/* 
+	 * This is my main class 
+	 * - All it does is print Hello World 
+	 */
+	public static void main(String... args) 
+	{
+		
+		int firstNumber = 10;
+		int secondNumber = 20;
+		int product = firstNumber * secondNumber;
+	
+		System.out.println("c value is: " + product);
+	}
+	
+}

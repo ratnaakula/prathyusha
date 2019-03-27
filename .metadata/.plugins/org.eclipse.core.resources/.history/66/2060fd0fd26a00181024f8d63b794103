@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Program3_32 // Geometry:point position
+{
+	public static void main(String[ ] args)
+	{
+		Scanner input=new Scanner(System.in);
+		// prompt the user to enter three points for p0,p1,and p2
+		System.out.print(" Enter three points for p0,p1 ,and p2 :");
+		double x0 = input.nextDouble();
+		double y0 = input.nextDouble();
+		double x1 = input.nextDouble();
+		double y1 = input.nextDouble();
+		double x2 = input.nextDouble();
+		double y2 = input.nextDouble();
+	}
+
+}

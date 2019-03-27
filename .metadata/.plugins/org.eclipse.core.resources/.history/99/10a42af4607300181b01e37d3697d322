@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class Problem4_6 // Random points on a circle
+{
+ public static void main(String[] args)
+ {
+	 
+ }
+}

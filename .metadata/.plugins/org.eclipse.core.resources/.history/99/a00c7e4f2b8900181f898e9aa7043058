@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Problem5_12 {
+	public static void main(String[] args) {
+		int n = 1;// initialize n at 0
+	
+		//find the smallest n such that n^2 >12000
+		while((int)Math.pow(n, 2) < 12000) {
+		
+				n++;
+		}
+				//Display result
+				System.out.println(" The smallest integer n such that n ^2 is greater than 12,000 : "+n);
+			}
+		}
+	
+
+

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SampleTest {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		//Prompt the user to enter the length from center of a pentagon to a vertex
+		System.out.print("Enter the length from the center to a vertex:");
+		//r is the length of a side 
+		double length = input.nextDouble();
+		double side = 2 * length * Math.sin(Math.PI /5);
+		double area = 5 * (side * side) / (4 * Math.tan(Math.PI/5));
+		System.out.printf(" The area of the pentagon is %.2f",area);
+	}
+
+}

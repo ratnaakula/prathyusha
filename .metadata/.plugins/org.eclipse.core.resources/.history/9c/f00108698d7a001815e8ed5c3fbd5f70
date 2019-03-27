@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Problem5_11 {
+	public static void main(String[] args) {
+		final int NUMBER_PER_LINE = 10;
+		int count = 0 ;
+		for(int i = 100; i <=1000; i++) {
+			count ++;
+		}
+	}
+
+}

@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class LotteryUsingStrings 
+{
+public static void main(String[] args)
+{
+	// Generate a lottery as  a two digit string
+	//String lottery = 
+			//"" + (int)(Math.random() * 100);// if we use this form,lottery may have only one digit
+			String lottery =""+(int)(Math.random() * 10) + (int)(Math.random() * 10);
+			         
+	
+	Scanner input = new Scanner(System.in);
+	//Prompt the user to enter a input
+	System.out.print(" Enter yout lottery pick (two digits): " );
+	//prompt the user to enter a guess
+	String guess = input.nextLine();
+	//Get digits from lottery
+	char lotteryDigit1 = lottery.charAt(0);
+	char lotteryDigit2 = lottery.charAt(1);
+	//Get digits from guess
+	char guessDigit1 = guess.charAt(0);
+	char guessDigit2 = guess.charAt(1);
+	System.out.println(" The lottery number is :" +lottery);
+	//Check the guess
+	if(guess.equals(lottery))
+	{
+		System.out.println(" Exact match: you win $10,000");
+	}
+	else if( guessDigit1 == lotteryDigit2 && guessDigit2 == lotteryDigit1)
+	{
+		System.out.println(" Match all digits : you win $3000");
+	}
+	else if (guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2 
+			|| guessDigit2 == lotteryDigit1 || guessDigit2 == lotteryDigit2)
+	{
+		System.out.println(" Match one digit : you win $1,000");
+	}
+	else
+	{
+		System.out.println(" sorry , no match");
+	}
+}
+}

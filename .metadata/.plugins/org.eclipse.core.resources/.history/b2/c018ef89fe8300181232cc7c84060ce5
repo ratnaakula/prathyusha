@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Problem5_21  {//Financial application
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	//Prompt the user to enter the loan amount
+	System.out.print(" Loan Amount :" );
+	double amount = input.nextDouble();
+	System.out.print(" Number of Years:");
+	int years = input.nextInt();
+	System.out.print("Interest Rate  \t    Monthly Payment \t  Total Payment");
+	}
+}

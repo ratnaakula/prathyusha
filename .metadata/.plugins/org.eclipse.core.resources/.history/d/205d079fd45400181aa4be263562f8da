@@ -1,0 +1,19 @@
+
+public class Problem1_4
+{
+	public static void main(String[]args)
+	{
+		int firstNumber = 1;
+		int secondNumber = 2;
+		int thirdNumber = 3;
+		int fourthNumber = 4;
+		
+		
+		System.out.println("a \t a^2 \t a^3   ");	
+		System.out.println(firstNumber + "\t" + Math.pow(firstNumber,2) + "\t" + Math.pow(firstNumber,3);
+	    System.out.println("  secondNumber \t secondNumber *2 \t secondNumber*4 ");
+		System.out.println("   thirdNumber \t thirdNumber *3 \t  thirdNumber*9 ");
+		System.out.println( "  fourthNumber \t fourthNumber *4\t fourthNumber*16 ");
+	}
+
+}

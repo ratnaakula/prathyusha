@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Problem4_9 {
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	//Prompt the user to enter a character
+	System.out.print(" Enter a character :");
+	int i = input.nextInt();
+	System.out.println(" The unicode for the character " +(char)i +" is " + (int)i);
+}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Problem4_7 // Corner point coordinates
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		//Prompt the user to enter the radius of the bounding circle
+		System.out.print(" Enter the radius of the bounding circle:");
+		double radius = input.nextDouble();
+		System.out.println("The coordinates of five points on the pentagon are");
+		for( int i = 5; i <= 5; i++)
+		{
+			double x = radius * Math.cos(Math.PI/180);
+			double y = radius * Math.sin(Math.PI/180);
+	}
+	}
+}

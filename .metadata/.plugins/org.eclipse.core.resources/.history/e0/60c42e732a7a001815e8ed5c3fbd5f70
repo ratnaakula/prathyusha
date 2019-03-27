@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Problem5_1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		//Prompt the user to enter a integer, the input ends if it is 0
+		System.out.print("Enter an integer, the input ends if it is 0 :");
+	}
+
+}

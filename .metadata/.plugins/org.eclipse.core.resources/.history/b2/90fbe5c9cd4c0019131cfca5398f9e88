@@ -1,0 +1,15 @@
+
+public class SampleApplication
+{
+
+	public static void main(String[] args)
+	{
+		//declare a variable count of int data type
+		int count;
+		//declare and intialize a value to the variable of double data type
+		double amount = 100.50;
+		main
+
+	}
+
+}

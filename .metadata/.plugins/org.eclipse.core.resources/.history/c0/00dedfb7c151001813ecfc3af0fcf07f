@@ -1,0 +1,60 @@
+
+public class HelloWorld 
+{
+
+	/* 
+	 * This is my main class 
+	 * - All it does is print Hello World 
+	 */
+	public static void main(String... args) 
+	{
+		// I want to know 767766 + 78787
+		addition(767766,78787);	
+		// I want to know 7877878 - 78787878
+		 subtraction(7877878,78787878);
+		// I want to know 878 * 87787
+		multiplication(878,87787);
+		// I want to know 888/1113
+		division(888,1113);
+	}
+	
+	public static int addition(int firstNumber,int secondNumber)
+	{ 
+		int sum = firstNumber + secondNumber;
+		
+		System.out.println(" add value is :" + sum);
+		
+		return sum;
+	}
+	
+	public static int subtraction(int firstNumber,int secondNumber)
+	{
+		int sub  = firstNumber - secondNumber;
+		
+		System.out.println(" sub value is : "+ sub );
+		
+		return sub;
+	}
+	
+   public static int multiplication (int firstNumber,int secondNumber)
+   {
+	   int product = firstNumber * secondNumber ;
+	
+	   System.out.println("  product value is:" + product);
+	
+	   return product;
+   }
+  
+   public static int division( int firstNumber,int secondNumber)
+   {
+	  
+	   int quotient = firstNumber/ secondNumber ;
+	   
+	   System.out.println(" div value is :" + quotient);
+	   
+	   	return quotient;       
+   }
+   
+}
+   
+	

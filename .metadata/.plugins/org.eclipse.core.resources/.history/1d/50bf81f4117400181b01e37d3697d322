@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Problem4_17 {
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		//Prompt the user to enter a year
+		double year = input.nextDouble();
+		//Prompt the user to enter a month 
+		String month = input.nextLine();
+		char ch = month.charAt(0);
+		ch = Character.toUpperCase(ch);
+		}
+
+}

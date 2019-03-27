@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Differnce_Main&apos; to &apos;Difference_Main&apos;&#x0D;&#x0A;- Original project: &apos;HomeWorkProblems&apos;&#x0D;&#x0A;- Original element: &apos;Differnce_Main&apos;&#x0D;&#x0A;- Renamed element: &apos;Difference_Main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Differnce_Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Differnce_Main.java[Differnce_Main" matchStrategy="1" name="Difference_Main" qualified="false" references="true" similarDeclarations="false" stamp="1534030094625" textual="false" version="1.0"/>
+</session>

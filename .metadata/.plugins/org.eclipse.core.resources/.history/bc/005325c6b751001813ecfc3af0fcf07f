@@ -1,0 +1,18 @@
+
+public class HelloWorld 
+{
+
+	/* 
+	 * This is my main class 
+	 * - All it does is print Hello World 
+	 */
+	public static void main(String... args) 
+	{
+		
+		int a=10;
+		int b=20;
+		int c=a+b;
+		System.out.println("c value is: "+ c);
+	}
+	
+}

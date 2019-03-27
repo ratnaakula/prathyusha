@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Problem4_14 {
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	//Prompt the user to enter a letter grade
+	System.out.print(" Enter a letter grade:");
+	String s = input.nextLine();
+	char ch = s.charAt(0);
+	if(ch <4 && ch<'F' || ch != 'E')
+	{
+		switch(ch)
+		{
+		case 0 : System.out.println("F");
+		break;
+		case 1 : System.out.println("D");
+		break;
+		case 2 : System.out.println("C");
+		break;
+		case 3 : System.out.println("B");
+		break;
+		case 4 : System.out.println("A");
+		
+		}
+		
+	}
+	else
+	System.out.println( ch + " is an invalid grade ");
+}
+
+}

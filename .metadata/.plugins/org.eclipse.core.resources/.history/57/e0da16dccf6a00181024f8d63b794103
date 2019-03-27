@@ -1,0 +1,31 @@
+/*import java.util.*;
+public class SampleProgram //Additional quiz
+
+{
+public static void main(String[] args)
+{
+	int number1 = (int)(System.currentTimeMillis() % 10);
+	int number2 = (int)(System.currentTimeMillis() /3 % 10);
+	// Create a scanner
+	Scanner input = new Scanner(System.in);
+	System.out.print("what is " +number1+ " +" +number2 +  " ?" );
+	int answer = input.nextInt();
+	System.out.println(  +number1+ " +" +number2+ " = " +answer + " is " +
+	               (number1+ number2 == answer));
+}
+
+}*/
+ 
+
+import java.util.Scanner;
+public class SampleProgram
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print(" Enter a year");
+		int year = input.nextInt();
+		boolean isLeapYear = (year % 4 == 0);
+		System.out.println(+year +" is a leap year ?" +isLeapYear);
+	}
+}

@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Problem4_2 //Great circle distance
+{
+public static void main(String[] args)
+{
+	final double RADIUS = 6371.01;// Constant value
+Scanner input = new Scanner(System.in);
+	//Prompt the user to enter the point1 latitude and longitude in degrees
+	System.out.print(" Enter point 1 (latitude and longitude) in degrees:");
+	String XY1 = input.nextLine();
+	
+	// Prompt the user to enter the point 2 latitude and longitude in degrees
+	System.out.print(" Enter point 2 (latitude and longitude) in degrees:");
+	String XY2 = input.nextLine();
+	
+	// Extract x and y values  from string
+	int k = XY1.indexOf(',');
+	double X1 = Double.parseDouble(XY1.substring(0, k-1));
+	double Y1 = Double.parseDouble(XY1.substring( k+2));
+     k = XY2.indexOf(',');
+    double X2 = Double.parseDouble(XY2.substring(0, k-1));
+    double Y2 = Double.parseDouble(XY2.substring(k+2));
+	
+// Convert degrees into radians
+	X1 = Math.toRadians(X1);
+	Y1 = Math.toRadians(Y1);
+	X2 = Math.toRadians(X2);
+	Y2 = Math.toRadians(Y2);
+	// Calculate its great circle distance
+	double distance = RADIUS * Math.acos(Math.sin(X1) * Math.sin(X2) + Math.cos(X1) * Math.cos(X2) * Math.cos(Y1-Y2));
+	//Display result
+	System.out.println(" The distance between the two points is  " +distance);
+	
+}
+}

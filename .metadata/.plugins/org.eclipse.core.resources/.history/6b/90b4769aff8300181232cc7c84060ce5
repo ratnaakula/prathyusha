@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Problem5_21  {//Financial application
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	//Prompt the user to enter the loan amount
+	System.out.print(" Loan Amount :" );
+	double loanAmount = input.nextDouble();
+	System.out.print(" Number of Years:");
+	int years = input.nextInt();
+	//Enter annual interest rate in percentage
+	System.out.print(" annual interest rate");
+	double annualInterestRate = input.nextDouble();
+	//Obtain monthly interest rate
+	double monthlyInterestRate = input.nextDouble();
+	System.out.print("Interest Rate  \t    Monthly Payment \t  Total Payment");
+	double monthlyPayment = loanAmount * monthlyInterestRate /
+			(1 -1 / Math.pow(1 + monthlyInterestRate , years * 12));
+	double totalPayment = monthlyPayment * years * 12;
+	}
+}
